@@ -1,11 +1,12 @@
 module Channel = {
   type t;
-  type channelType =
+  /* May change later to TextChanngel.t, VoiceChannel.t, and so on */
+  type cType =
     | Text
     | Voice
     | DM
     | Group;
-  external chennalType : t => channelType = "type" [@@bs.get];
+  external channelType : t => cType = "type" [@@bs.get];
 };
 
 module User = {
