@@ -4,7 +4,8 @@
   "description": "BuckleScript bindings for discord.js",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "bsb -w"
   },
   "repository": {
     "type": "git",
@@ -23,5 +24,8 @@
   "homepage": "https://github.com/BuckleTypes/bs-discord.js#readme",
   "dependencies": {
     "discord.js": "^11.0.0"
+  },
+  "devDependencies": {
+    "bs-platform": "^1.6.0"
   }
 }
