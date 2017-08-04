@@ -17,7 +17,7 @@
     "bucklescript"
   ],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/BuckleTypes/bs-discord.js/issues"
   },
